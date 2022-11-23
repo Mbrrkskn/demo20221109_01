@@ -1,0 +1,31 @@
+# demo20221109_01
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tr.edu.medipol.yova</groupId>
+  <artifactId>PrnekJavaProje1</artifactId>
+  <version>22.11.23</version>
+  
+  
+  <properties>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>      
+        <maven.compiler.target>1.8</maven.compiler.target>
+ </properties>
+
+
+<dependencies>   
+<dependency>     
+<groupId>org.apache.commons</groupId>  
+     <artifactId>commons-lang3</artifactId> 
+            <version>3.12.0</version>      
+   </dependency>
+
+
+        <dependency>         
+    <groupId>org.apache.commons</groupId>    
+         <artifactId>commons-math3</artifactId>  
+           <version>3.6.1</version>       
+  </dependency>
+
+    </dependencies>
+
